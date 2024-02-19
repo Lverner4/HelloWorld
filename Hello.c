@@ -2,5 +2,7 @@
 #include <stdio.h>
 int main(void)
 {
-   printf("Hello world\n");
+   short len;
+   len = printf("Hello world\n");
+   printf("Len is %d\n", len);
 }
